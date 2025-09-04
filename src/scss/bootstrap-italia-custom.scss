@@ -1,0 +1,16 @@
+// file: bootstrap-italia-custom.scss
+
+// modifica completa del template: è possibile ricompilare la libreria modificando alcune variabili SCSS
+
+// Per l'override del colore $primary della palette in formato HSB (colore #FF3333 https://rgb.to/ff3333):
+$primary-h: 0;
+$primary-s: 80;
+$primary-b: 100;
+
+// Per l'override della famiglia di caratteri
+$font-family-serif: "Custom Font", Georgia, serif;
+$font-family-sans-serif: "Custom Font", Arial, Helvetica, sans-serif;
+$font-family-monospace: "Custom Font", "Courier New", Courier, monospace;
+
+// import libreria
+@import "bootstrap-italia/src/scss/bootstrap-italia.scss";
