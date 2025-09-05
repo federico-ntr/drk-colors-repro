@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap-italia": "2.13.4",
+    "bootstrap-italia": "2.14.0",
     "design-react-kit": "5.8.3",
     "react": "19.1.1",
     "react-dom": "19.1.1",
